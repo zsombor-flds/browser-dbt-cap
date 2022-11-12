@@ -1,6 +1,6 @@
-# Chrome proper dbt capitalisation
+# Proper dbt capitalisation in websites
 
-Chrome Extension which ensures that dbt is not DBT.
+Browser extension which ensures that dbt is not DBT.
 
 Demo:
 ![Alt text](demo.gif)

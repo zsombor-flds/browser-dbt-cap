@@ -1,0 +1,23 @@
+{
+
+   "manifest_version": 2,
+   "version": "1.0",
+   "name":"Fix dbt capitalisation",
+   "short_name":"dbt-cap",
+   "description":"Fix dbt capitalisation in website content",
+   "author":"Zsombor Foldesi",
+
+   "icons": {
+     "300": "../chrome/dbt-logo.png"
+   },
+ 
+   "content_scripts": [
+     {
+       "matches": ["*://*/*"],
+       "js": ["main.js"],
+       "run_at":"document_end"
+      }
+     
+    ]
+ }
+ 
